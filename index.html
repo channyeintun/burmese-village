@@ -711,5 +711,24 @@
   </div>
 </footer>
 
+<script>
+  (() => {
+    var journey = document.querySelector('.journey');
+    if (!journey) return;
+    if (!('IntersectionObserver' in window)) {
+      journey.classList.add('is-playing');
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        journey.classList.add('is-playing');
+        io.unobserve(entry.target);
+      });
+    }, { threshold: 0.3 });
+    io.observe(journey);
+  })();
+</script>
+
 </body>
 </html>

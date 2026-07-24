@@ -820,29 +820,29 @@ li:hover > .dish .dots { border-color: var(--terra); }
 .j-badge i { font-style: italic; text-transform: none; letter-spacing: 0; }
 
 @media (prefers-reduced-motion: no-preference) {
-  .j-bridge { animation: j-bridge 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
-  .j-route { animation: j-route 12s linear infinite; }
-  .j-route line:nth-child(1) { animation: jdot1 12s ease-out infinite; }
-  .j-route line:nth-child(2) { animation: jdot2 12s ease-out infinite; }
-  .j-route line:nth-child(3) { animation: jdot3 12s ease-out infinite; }
-  .j-route line:nth-child(4) { animation: jdot4 12s ease-out infinite; }
-  .j-route line:nth-child(5) { animation: jdot5 12s ease-out infinite; }
-  .j-route line:nth-child(6) { animation: jdot6 12s ease-out infinite; }
-  .j-route line:nth-child(7) { animation: jdot7 12s ease-out infinite; }
-  .j-route line:nth-child(8) { animation: jdot8 12s ease-out infinite; }
-  .j-route line:nth-child(9) { animation: jdot9 12s ease-out infinite; }
-  .j-route line:nth-child(10) { animation: jdot10 12s ease-out infinite; }
-  .j-route line:nth-child(11) { animation: jdot11 12s ease-out infinite; }
-  .j-route line:nth-child(12) { animation: jdot12 12s ease-out infinite; }
-  .j-route line:nth-child(13) { animation: jdot13 12s ease-out infinite; }
-  .j-route line:nth-child(14) { animation: jdot14 12s ease-out infinite; }
-  .j-scooter { animation: j-ride 12s ease-in-out infinite; }
-  .j-smoke { animation: j-smoke-gate 12s linear infinite; }
-  .j-smoke i { animation: j-puff 1.5s ease-out infinite; }
-  .j-smoke i:nth-child(2) { animation-delay: .5s; }
-  .j-smoke i:nth-child(3) { animation-delay: 1s; }
-  .j-home { animation: j-home 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
-  .j-badge { animation: j-badge 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
+  .journey.is-playing .j-bridge { animation: j-bridge 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
+  .journey.is-playing .j-route { animation: j-route 12s linear infinite; }
+  .journey.is-playing .j-route line:nth-child(1) { animation: jdot1 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(2) { animation: jdot2 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(3) { animation: jdot3 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(4) { animation: jdot4 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(5) { animation: jdot5 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(6) { animation: jdot6 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(7) { animation: jdot7 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(8) { animation: jdot8 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(9) { animation: jdot9 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(10) { animation: jdot10 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(11) { animation: jdot11 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(12) { animation: jdot12 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(13) { animation: jdot13 12s ease-out infinite; }
+  .journey.is-playing .j-route line:nth-child(14) { animation: jdot14 12s ease-out infinite; }
+  .journey.is-playing .j-scooter { animation: j-ride 12s ease-in-out infinite; }
+  .journey.is-playing .j-smoke { animation: j-smoke-gate 12s linear infinite; }
+  .journey.is-playing .j-smoke i { animation: j-puff 1.5s ease-out infinite; }
+  .journey.is-playing .j-smoke i:nth-child(2) { animation-delay: .5s; }
+  .journey.is-playing .j-smoke i:nth-child(3) { animation-delay: 1s; }
+  .journey.is-playing .j-home { animation: j-home 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
+  .journey.is-playing .j-badge { animation: j-badge 12s cubic-bezier(.34, 1.56, .64, 1) infinite; }
 }
 
 @keyframes j-bridge {
