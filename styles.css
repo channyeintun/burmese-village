@@ -149,15 +149,11 @@ h2 br { display: inline; }
 
 .brand { display: flex; align-items: center; gap: 13px; text-decoration: none; }
 .brand-sign {
-  width: 44px; height: 44px; flex: none;
+  width: 46px; flex: none;
   display: grid; place-items: center;
-  color: var(--terra);
-  background: var(--card);
-  border: 1.6px solid var(--terra-soft);
-  border-radius: 12px;
-  box-shadow: 0 4px 10px -6px rgba(169, 73, 42, .5);
+  filter: drop-shadow(0 3px 6px rgba(70, 51, 31, .25));
 }
-.brand-sign svg { width: 27px; height: 27px; }
+.brand-sign svg { width: 46px; height: auto; }
 .brand-word strong {
   display: block;
   font-family: var(--display);
