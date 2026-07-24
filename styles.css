@@ -259,12 +259,14 @@ h2 br { display: inline; }
     linear-gradient(to bottom, #000 0%, #000 86%, transparent 86.5%),
     radial-gradient(ellipse 58% 15% at 50% 84.5%, #000 88%, transparent 97%);
   mask-repeat: no-repeat;
+  user-select: none;
 }
 .hero-welcome {
   position: absolute;
   left: 50%; bottom: 1.9%;
   width: 35%; height: auto;
   transform: translateX(-50%) translateZ(46px);
+  user-select: none;
 }
 .hero-scene::after { /* contact shadow under the greeters */
   content: "";
