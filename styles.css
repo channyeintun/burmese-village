@@ -938,10 +938,10 @@ li:hover > .dish .dots { border-color: var(--terra); }
   100% { transform: translate(-150%, -80%) scale(1.2); opacity: 0; }
 }
 @keyframes j-ride {
-  0% { opacity: 0; left: 12%; bottom: 28.5%; transform: scale(.14); }
-  5% { opacity: 1; left: 12%; bottom: 28.5%; transform: scale(.28); }
-  7%, 9% { opacity: 1; left: 12%; bottom: 28.5%; transform: scale(.25); }
-  10.5% { opacity: 1; left: 13.5%; bottom: 27%; transform: scale(.34); animation-timing-function: ease-in; }
+  0% { opacity: 0; left: 15.5%; bottom: 24.5%; transform: scale(.14); }
+  5% { opacity: 1; left: 15.5%; bottom: 24.5%; transform: scale(.28); }
+  7%, 9% { opacity: 1; left: 15.5%; bottom: 24.5%; transform: scale(.25); }
+  10.5% { opacity: 1; left: 17%; bottom: 25.5%; transform: scale(.36); animation-timing-function: ease-in; }
   17% { left: 22.5%; bottom: 30.2%; transform: scale(1); animation-timing-function: linear; }
   25% { left: 35.7%; bottom: 49.6%; transform: scale(1); animation-timing-function: linear; }
   32% { left: 50.5%; bottom: 56.3%; transform: scale(1); animation-timing-function: linear; }
