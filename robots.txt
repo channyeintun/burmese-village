@@ -1,5 +1,4 @@
-# TODO: replace burmesevillage.example with your real domain before going live
 User-agent: *
 Allow: /
 
-Sitemap: https://burmesevillage.example/sitemap.xml
+Sitemap: https://burmese-village.chanyeintun.workers.dev/sitemap.xml
