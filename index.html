@@ -171,166 +171,11 @@
     </div>
 
     <!-- The shopfront, drawn with love -->
-    <figure class="hero-art r2" aria-label="Illustration of the Burmese Village shopfront">
-      <svg viewBox="0 0 760 640" role="img">
-        <defs>
-          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#FFE9C4"/>
-            <stop offset=".55" stop-color="#FDF3DC"/>
-            <stop offset="1" stop-color="#FBF5E8"/>
-          </linearGradient>
-          <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#9A6236"/>
-            <stop offset="1" stop-color="#6E4423"/>
-          </linearGradient>
-          <linearGradient id="inside" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#4E3823"/>
-            <stop offset="1" stop-color="#2E2012"/>
-          </linearGradient>
-          <pattern id="blind" width="12" height="9" patternUnits="userSpaceOnUse">
-            <rect width="12" height="9" fill="#DDA94B"/>
-            <rect y="6.5" width="12" height="2.5" fill="#B9822F"/>
-          </pattern>
-          <pattern id="breeze" width="34" height="34" patternUnits="userSpaceOnUse">
-            <rect width="34" height="34" fill="#C96F45"/>
-            <path d="M17 5 L29 17 L17 29 L5 17 Z" fill="#FBF0DC"/>
-            <path d="M17 10 L24 17 L17 24 L10 17 Z" fill="#B85B33"/>
-          </pattern>
-          <pattern id="tiles" width="22" height="14" patternUnits="userSpaceOnUse">
-            <rect width="22" height="14" fill="#F2E7CE"/>
-            <path d="M5.5 0 L11 7 L5.5 14 L0 7 Z" fill="#3E7C74" opacity=".55"/>
-            <path d="M16.5 0 L22 7 L16.5 14 L11 7 Z" fill="#C96F45" opacity=".5"/>
-          </pattern>
-        </defs>
-
-        <!-- sky & sun -->
-        <rect x="0" y="0" width="760" height="640" rx="26" fill="url(#sky)"/>
-        <circle cx="618" cy="86" r="46" fill="#F5B94B" opacity=".9"/>
-        <circle cx="618" cy="86" r="68" fill="#F5B94B" opacity=".22"/>
-        <g stroke="#E9A93C" stroke-width="3" stroke-linecap="round" opacity=".55">
-          <path d="M618 4 V22"/><path d="M618 150 V168"/>
-          <path d="M536 86 H554"/><path d="M682 86 H700"/>
-          <path d="M560 28 L573 41"/><path d="M663 131 L676 144"/>
-          <path d="M676 28 L663 41"/><path d="M573 131 L560 144"/>
-        </g>
-        <g fill="none" stroke="#B98F5A" stroke-width="3" stroke-linecap="round" opacity=".6">
-          <path d="M96 92 q10 -10 20 0 q10 10 20 0"/>
-          <path d="M148 60 q8 -8 16 0 q8 8 16 0"/>
-        </g>
-
-        <!-- building -->
-        <ellipse cx="380" cy="600" rx="300" ry="18" fill="#8A6A43" opacity=".18"/>
-        <rect x="118" y="132" width="524" height="440" fill="#FDF9EE" stroke="#E5D6B4" stroke-width="2"/>
-
-        <!-- sign -->
-        <g>
-          <path d="M170 132 V112 M170 112 h-14 M170 112 h14" stroke="#6E4423" stroke-width="5" fill="none"/>
-          <path d="M380 132 V108 M380 108 h-14 M380 108 h14" stroke="#6E4423" stroke-width="5" fill="none"/>
-          <path d="M590 132 V112 M590 112 h-14 M590 112 h14" stroke="#6E4423" stroke-width="5" fill="none"/>
-          <rect x="118" y="60" width="524" height="66" rx="7" fill="url(#wood)"/>
-          <g stroke="#5C3517" stroke-width="1.4" opacity=".65">
-            <path d="M124 76 H636"/><path d="M124 92 H636"/><path d="M124 108 H636"/>
-          </g>
-          <text x="380" y="94" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-weight="600" font-size="30" letter-spacing="7" fill="#FBF0DC">BURMESE VILLAGE</text>
-          <text x="380" y="115" text-anchor="middle" font-family="'Be Vietnam Pro', sans-serif" font-size="11.5" letter-spacing="3.4" fill="#EFD9AE">TEA HOUSE &amp; RESTAURANT · QUÁN TRÀ VÀ NHÀ HÀNG</text>
-        </g>
-
-        <!-- upper window -->
-        <rect x="156" y="150" width="448" height="74" rx="5" fill="#372B1E"/>
-        <g stroke="#7A5A38" stroke-width="4">
-          <rect x="156" y="150" width="448" height="74" rx="5" fill="none"/>
-          <path d="M268 150 V224"/><path d="M380 150 V224"/><path d="M492 150 V224"/>
-        </g>
-        <path d="M170 224 L232 150 H268 L206 224 Z" fill="#FBF5E8" opacity=".07"/>
-        <path d="M420 224 L482 150 H506 L444 224 Z" fill="#FBF5E8" opacity=".05"/>
-
-        <!-- balcony -->
-        <rect x="136" y="236" width="488" height="8" rx="3" fill="#3E7C74"/>
-        <rect x="142" y="244" width="476" height="40" fill="url(#breeze)"/>
-        <rect x="136" y="284" width="488" height="9" rx="3" fill="#35695f"/>
-
-        <!-- flowers on the rail -->
-        <g>
-          <g transform="translate(196 238)">
-            <circle cx="0" cy="0" r="6" fill="#E07A3F"/><circle cx="12" cy="4" r="5" fill="#D9534F"/>
-            <circle cx="-11" cy="5" r="5" fill="#E8975C"/><circle cx="4" cy="11" r="4.4" fill="#C94436"/>
-            <path d="M-16 12 q-6 8 -2 16 M18 10 q7 9 3 18" stroke="#5C8455" stroke-width="3" fill="none" stroke-linecap="round"/>
-          </g>
-          <g transform="translate(382 236)">
-            <circle cx="0" cy="0" r="7" fill="#E4653F"/><circle cx="14" cy="5" r="5" fill="#E8975C"/>
-            <circle cx="-13" cy="4" r="5.4" fill="#D9534F"/><circle cx="2" cy="12" r="4.6" fill="#C94436"/>
-            <path d="M-18 12 q-5 9 -1 17 M20 11 q6 9 2 17" stroke="#5C8455" stroke-width="3" fill="none" stroke-linecap="round"/>
-          </g>
-          <g transform="translate(566 238)">
-            <circle cx="0" cy="0" r="6" fill="#E8975C"/><circle cx="11" cy="4" r="5" fill="#E07A3F"/>
-            <circle cx="-11" cy="4" r="4.6" fill="#C94436"/>
-            <path d="M15 10 q6 8 2 16" stroke="#5C8455" stroke-width="3" fill="none" stroke-linecap="round"/>
-          </g>
-        </g>
-
-        <!-- pergola & lamps -->
-        <rect x="126" y="300" width="508" height="10" rx="3" fill="#7A5230"/>
-        <g stroke="#6E4423" stroke-width="2.4">
-          <path d="M252 310 v22"/><path d="M382 310 v26"/><path d="M512 310 v20"/>
-        </g>
-        <g>
-          <circle cx="252" cy="340" r="9" fill="#F2BC5B"/><circle cx="252" cy="340" r="15" fill="#F2BC5B" opacity=".25"/>
-          <circle cx="382" cy="344" r="9" fill="#F2BC5B"/><circle cx="382" cy="344" r="15" fill="#F2BC5B" opacity=".25"/>
-          <circle cx="512" cy="338" r="9" fill="#F2BC5B"/><circle cx="512" cy="338" r="15" fill="#F2BC5B" opacity=".25"/>
-        </g>
-
-        <!-- ground floor openings -->
-        <rect x="150" y="318" width="212" height="244" fill="url(#inside)"/>
-        <rect x="398" y="318" width="212" height="244" fill="url(#inside)"/>
-        <g opacity=".85">
-          <rect x="168" y="470" width="176" height="8" rx="3" fill="#8a6134"/>
-          <rect x="180" y="478" width="10" height="52" fill="#8a6134"/>
-          <rect x="322" y="478" width="10" height="52" fill="#8a6134"/>
-          <circle cx="222" cy="500" r="13" fill="#B9822F"/>
-          <rect x="217" y="510" width="9" height="34" fill="#8a6134"/>
-          <circle cx="286" cy="500" r="13" fill="#B9822F"/>
-          <rect x="281" y="510" width="9" height="34" fill="#8a6134"/>
-          <rect x="430" y="452" width="150" height="9" rx="3" fill="#8a6134"/>
-          <rect x="438" y="461" width="9" height="70" fill="#8a6134"/>
-          <rect x="562" y="461" width="9" height="70" fill="#8a6134"/>
-          <rect x="452" y="484" width="42" height="46" rx="4" fill="#B9822F" opacity=".8"/>
-          <rect x="510" y="484" width="42" height="46" rx="4" fill="#B9822F" opacity=".8"/>
-          <rect x="470" y="352" width="70" height="44" rx="4" fill="#F2BC5B" opacity=".28"/>
-          <rect x="200" y="352" width="90" height="44" rx="4" fill="#F2BC5B" opacity=".2"/>
-        </g>
-
-        <!-- bamboo blinds -->
-        <g>
-          <rect x="150" y="318" width="212" height="112" fill="url(#blind)"/>
-          <rect x="150" y="424" width="212" height="8" rx="3" fill="#A8762A"/>
-          <path d="M210 432 v26 M300 432 v26" stroke="#A8762A" stroke-width="2"/>
-          <rect x="398" y="318" width="212" height="84" fill="url(#blind)"/>
-          <rect x="398" y="396" width="212" height="8" rx="3" fill="#A8762A"/>
-          <path d="M458 404 v24 M548 404 v24" stroke="#A8762A" stroke-width="2"/>
-        </g>
-
-        <!-- center pier + little menu board -->
-        <rect x="362" y="318" width="36" height="244" fill="#FDF9EE"/>
-        <rect x="368" y="452" width="24" height="34" rx="3" fill="#FFFDF6" stroke="#CBB98E" stroke-width="1.6"/>
-        <g stroke="#B9A375" stroke-width="1.8" stroke-linecap="round">
-          <path d="M372 460 h16"/><path d="M372 466 h16"/><path d="M372 472 h10"/>
-        </g>
-
-        <!-- plant -->
-        <g transform="translate(652 486)">
-          <path d="M-20 76 L20 76 L14 34 L-14 34 Z" fill="#FFFDF6" stroke="#E0D2AF" stroke-width="2"/>
-          <g fill="none" stroke="#5C8455" stroke-width="5" stroke-linecap="round">
-            <path d="M0 36 C0 10 2 -6 14 -26"/>
-            <path d="M0 36 C-4 8 -12 -4 -26 -16"/>
-            <path d="M0 36 C4 14 18 2 30 -2"/>
-            <path d="M0 36 C-2 16 -22 8 -34 10"/>
-          </g>
-        </g>
-
-        <!-- step tiles & mat -->
-        <rect x="118" y="562" width="524" height="16" fill="url(#tiles)"/>
-        <rect x="332" y="566" width="96" height="9" rx="4" fill="#B5493A"/>
-      </svg>
+    <figure class="hero-art r2">
+      <div class="hero-scene">
+        <img class="hero-building" src="images/building.webp" alt="The Burmese Village building at dusk: lit sign, flowered breeze-block balcony and glowing tea-house interior" width="1086" height="1448" fetchpriority="high">
+        <img class="hero-welcome" src="images/welcome-to-our-restaurant.webp" alt="Two Burmese Village staff in cream polos giving a welcoming mingalarbar greeting" width="1024" height="1536">
+      </div>
       <figcaption>39 Phạm Hồng Thái, Hải Châu · blinds up by breakfast, lights out at 9 PM.</figcaption>
     </figure>
   </div>
@@ -729,11 +574,40 @@
       <h2>The blinds are up.<br>Come on in</h2>
     </div>
 
+    <div class="journey reveal" role="img" aria-label="Animated route: Burmese Village is only five minutes by scooter from the Dragon Bridge">
+      <figure class="j-stop j-bridge" aria-hidden="true">
+        <img src="images/dragon-bridge.webp" alt="" width="1920" height="1200" loading="lazy">
+        <figcaption>Dragon Bridge</figcaption>
+      </figure>
+      <svg class="j-route" viewBox="0 0 600 130" preserveAspectRatio="none" aria-hidden="true">
+        <line x1="12" y1="116" x2="28" y2="108"/>
+        <line x1="50" y1="97" x2="67" y2="90"/>
+        <line x1="90" y1="81" x2="107" y2="76"/>
+        <line x1="133" y1="68" x2="150" y2="64"/>
+        <line x1="177" y1="58" x2="195" y2="55"/>
+        <line x1="222" y1="52" x2="240" y2="50"/>
+        <line x1="268" y1="48" x2="286" y2="47"/>
+        <line x1="314" y1="47" x2="332" y2="47"/>
+        <line x1="360" y1="49" x2="378" y2="50"/>
+        <line x1="405" y1="54" x2="423" y2="56"/>
+        <line x1="450" y1="61" x2="467" y2="65"/>
+        <line x1="492" y1="72" x2="510" y2="77"/>
+        <line x1="533" y1="86" x2="550" y2="92"/>
+        <line x1="572" y1="102" x2="588" y2="110"/>
+      </svg>
+      <figure class="j-stop j-home" aria-hidden="true">
+        <img src="images/building.webp" alt="" width="1086" height="1448" loading="lazy">
+        <figcaption>Burmese Village</figcaption>
+      </figure>
+      <div class="j-scooter" aria-hidden="true">
+        <img src="images/scooter-cut.webp" alt="" width="1136" height="1385" loading="lazy">
+        <span class="j-smoke"><i></i><i></i><i></i></span>
+      </div>
+      <p class="j-badge" aria-hidden="true"><b>5</b><span>minutes<br><i lang="vi">chỉ 5 phút</i></span></p>
+    </div>
+
     <div class="visit-grid">
-      <article class="v-card v-card--find reveal">
-        <figure class="v-snapshot">
-          <img src="images/shop-front.jpg" alt="The Burmese Village shopfront on Phạm Hồng Thái street: wooden sign, terracotta breeze-block balcony with flowers, and golden bamboo blinds" width="960" height="1280" loading="lazy">
-        </figure>
+      <article class="v-card reveal">
         <h3>Find us</h3>
         <p class="v-big">39 Phạm Hồng Thái<br>Hải Châu · Đà Nẵng 550000</p>
         <a class="btn btn-terra small" href="https://maps.app.goo.gl/p5LvmFNvhZLKoGyHA">Open in Google Maps</a>
