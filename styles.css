@@ -723,8 +723,9 @@ li:hover > .dish .dots { border-color: var(--terra); }
 
 /* ── Journey: 5 minutes from the Dragon Bridge ────────────────── */
 .journey {
+  --j-h: clamp(230px, 26vw, 330px);
   position: relative;
-  height: clamp(230px, 26vw, 330px);
+  height: var(--j-h);
   margin: 0 0 3rem;
 }
 .j-stop { position: absolute; margin: 0; }
@@ -749,7 +750,12 @@ li:hover > .dish .dots { border-color: var(--terra); }
 
 .j-route {
   position: absolute;
-  left: 26%; right: 14%; bottom: 26%;
+  left: 26%; bottom: 26%;
+  /* The SVG is a replaced element: height is set and width is auto, so it sizes
+     itself from the viewBox ratio (52% × 600/130 = 2.4 × the journey height) and
+     ignores `right`. Cap that at 74% or a short, narrow journey box sends the
+     route off the side of the page. */
+  width: min(74%, calc(var(--j-h) * 2.4));
   height: 52%;
   overflow: visible;
 }
