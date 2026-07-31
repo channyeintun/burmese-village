@@ -1,14 +1,17 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
+  // Static-asset-only Worker: no script, Cloudflare serves the files directly.
+  // Deploy with: npx wrangler deploy
+  // Files that must not be served publicly are listed in .assetsignore
   "name": "burmese-village",
-  "compatibility_date": "2026-07-26",
+  "compatibility_date": "2026-07-31",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
   "observability": {
     "enabled": true
   },
   "assets": {
     "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+  }
 }
